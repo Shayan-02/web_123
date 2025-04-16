@@ -1,0 +1,34 @@
+/* body */
+
+/* body {
+    direction: rtl;
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+/* p */
+
+/* p {
+    color: blueviolet;
+    font-weight: bold;
+} */
+
+.title{
+    font-size: 30px;
+    color:rgb(0, 255, 255);
+}
+
+.description{
+    font-size: 20px;
+    color: #FFCD5A;
+}
+
+#product{
+    font-weight: bold;
+    color: red;
+}
+
+a {
+    color: black;
+    text-decoration: double;
+    
+}

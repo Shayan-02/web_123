@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "vazir";
+  src:
+    url("./../fonts/Vazir.ttf") format("ttf"),
+    url("./../fonts/Vazir.woff") format("woff");
+}
+
+body .list{
+    list-style: none;
+}
+
+.list .item{
+    color: darkorchid;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'vazir';
+}
