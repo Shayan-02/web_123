@@ -1,0 +1,11 @@
+.test > span{
+    color: red;
+}
+
+.test + span{
+    color: blue;
+}
+
+.test ~ span{
+    color: rgb(0, 238, 255);
+}

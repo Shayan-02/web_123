@@ -1,0 +1,398 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir.eot') format('eot'),
+         url('../fonts/vazir.ttf')  format('truetype'),
+         url('../fonts/vazir.woff') format('woff2'),
+         url('../fonts/vazir.woff2') format('woff'),
+    
+  }
+
+
+  body{
+      font-family: 'vazir';
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+  }
+  
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 1300px;
+    margin: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5)
+  }
+
+  .hamburger-icon{
+      width: 20%;
+      display: none;
+  }
+  .hamburger-icon img{
+      width: 50px;
+  }
+
+  #responsive-navigation{
+      display: none;
+  }
+  /* header */
+
+
+  header{
+    background-image: url('../images/bakcground-header.jpg');
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  
+
+  header nav{
+      background-color: rgba(0, 0, 0, .7);
+      width: 100%;
+      height: 80px;
+  }
+
+  header nav ul{
+      width: 50%;
+      float: right;
+      height: 100%;
+  }
+  header nav ul li{
+      display: inline-block;
+      margin: 0 10px 0 10px;
+      line-height: 4;
+  }
+  header nav ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+  }
+
+  header nav .logo{
+      width: 50%;
+      height: 100%;
+      float: right;
+      text-align: left;
+  }
+
+  header nav .logo img{
+      width: 80px;
+     margin-top: 5px;
+  }
+
+  header .header-desc{
+      color: #fff;
+      position: absolute;
+      top: 400px;
+      right: 0;
+      left: 0;
+      text-align: center;
+  }
+
+  header .header-desc h1{
+      font-size: 50px;
+  }
+
+  header .header-desc p{
+      font-size: 25px;
+  }
+
+
+/* our-story */
+
+#our-story{
+    width: 100%;
+    height: 450px;
+    padding: 100px 0;
+}
+
+#our-story .story-desc{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#our-story .story-desc h1{
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+#our-story .story-desc p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    width: 550px;
+    margin: auto;
+}
+
+#our-story .story-img{
+    width: 50%;
+    float: right;
+}
+
+#our-story .story-img img{
+    width:100%;
+}
+  /* sweet */
+
+
+  #sweet {
+      width: 100%;
+      height: 300px;
+      padding: 100px 0;
+      background-image: url('../images/backtwo.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
+
+  }
+  #sweet  .sweet-desc{
+      text-align: center;
+      color: #fff;
+      margin-top: 150px;
+  }
+
+  #sweet .sweet-desc h1{
+      font-size: 45px;
+
+  }
+
+  #sweet  .sweet-desc p{
+      font-size: 20px;
+      width: 650px;
+      margin: auto;
+  }
+
+
+  /* menu */
+
+  .menu{
+      width: 100%;
+      height: 500px;
+      padding: 100px 0;
+  }
+
+
+  .menu .menu-desc{
+      width: 50%;
+      float: right;
+      text-align: center;
+  }
+  .menu .menu-desc h1{
+      font-size: 40px;
+      margin-top: 150px;
+  }
+  .menu .menu-desc p{
+      line-height: 30px;
+      font-size: 21px;
+      width: 580px;
+      margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .menu .menu-desc a{
+      text-decoration: none;
+      color: #000;
+      font-size: 19px;
+      border-bottom: 2px solid #c00;
+  }
+ 
+  .menu .menu-img{
+      width: 50%;
+      float: right;
+  }
+
+  .menu .menu-img ul{
+    width: 100%;
+   list-style: none;
+  }
+
+  .menu .menu-img ul li{
+      width: 50%;
+      float: right;
+      text-align: left;
+      margin-bottom: 10px;
+  }
+
+  .menu .menu-img ul li img{
+      width: 95%;
+      height: 250px;
+  }
+
+
+  /* hot */
+
+  .hot{
+      background-image: url('../images/hot.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 100%;
+      padding: 100px 0;
+      height: 300px;
+      position: relative;
+  }
+  
+  .hot .hot-title{
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      margin-top: 150px;
+      z-index: 1;
+  }
+
+  .hot .hot-title h1{
+      font-size: 60px;
+      margin-bottom: 20px;
+  }
+
+  .hot .hot-title p{
+      font-size: 30px;
+  }
+
+
+
+  /* delight */
+
+
+  #delight{
+      padding: 100px 0;
+      width: 100%;
+  }
+
+
+  #delight .delight{
+      width: 100%;
+      overflow: auto;
+  }
+
+  #delight .delight .delight-content{
+      width: 55%;  
+      float: right; 
+      text-align: center;
+  }
+
+  #delight .delight .delight-content h1{
+      font-size: 40px;
+      margin-top: 100px;
+
+  }
+  #delight .delight .delight-content p{
+      margin-top: 20px;
+      font-size: 22px;
+  }
+  #delight .delight .delight-img{
+      width: 45%;
+      float: right;
+      text-align: center;
+  }
+
+  #delight .delight .delight-img img{
+      width: 220px;
+      height: 350px;
+     
+      float: left;
+  }
+
+  #delight .delight .delight-img img.img-left{
+      margin-right: 30px;
+  }
+
+
+/* footer */
+
+
+#footer{
+    background-color: #141414;
+    padding-top: 100px;
+}
+
+#footer .footer{
+    width: 100%;
+}
+
+#footer .footer .about-footer{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#footer .footer .about-footer h2{
+    margin-bottom: 30px;
+}
+#footer .footer .about-footer p{
+    width: 600px;
+    margin: auto;
+    line-height: 30px;
+}
+
+#footer .footer .contact-us{
+    width: 60%;
+    height: 100px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer .footer .contact-us .news-latter{
+    float: right;
+    width: 50%;
+}
+#footer .footer .contact-us .news-latter input{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#footer .footer .contact-us .social{
+    float: right;
+    width: 50%;
+}
+
+
+#footer .footer .contact-us .social ul{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#footer .footer .contact-us .social ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer .footer .contact-us .social ul li a{
+    color: #fff;
+}
+
+#footer .footer .contact-us .social ul li a svg{
+    font-size: 25px;
+}
+
+#footer .copy-right{
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+#footer .copy-right h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
