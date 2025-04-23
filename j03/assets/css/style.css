@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(./../fonts/fonts/vazir.ttf);
+}
+
+* {
+    font-family: 'vazir';
+    font-size: 25px;
+}
+
+body{
+    direction: rtl;
+}
+
+
+.hero{
+    background-color: burlywood;
+    width: 100vh;
+
+}
+
+.hero h1{
+    background-color: blueviolet;
+    width: 50%;
+}
+
+.hero h2{
+    background-color: cyan;
+    width: 50%;
+}
+
+/* sizing */
+
+.container{
+    font-size: 2em;
+}
+
+.container .title{
+    font-size: 0.5em;
+}
+
+.container .item{
+    font-size: 2rem;
+}
+
+.item .description{
+    font-size: 2rem;
+}
