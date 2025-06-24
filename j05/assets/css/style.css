@@ -1,0 +1,36 @@
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/VAZIR.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: vazir;
+    font-weight: 700;
+}
+
+.container{
+    text-align: center;
+    background: #b11d1d;
+}
+
+.menu{
+    display: inline;
+}
+
+.menu .item{
+    display: inline;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.item .item-link{
+    font-size: 20px;
+    color: #fff;
+}
+
+.item-link:hover{
+    color: dimgrey;
+}

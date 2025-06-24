@@ -1,0 +1,29 @@
+/* ul {
+    background-color: blue;
+} */
+/* li{
+    background-color: red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li:nth-child(1) {
+    margin-left: 0;
+}
+
+li:nth-last-child(1) {
+    
+}
+
+li {
+    display: inline;
+    margin: 1.5rem;
+    background-color: blueviolet;
+}
+
+.btn:focus {
+    background-color: blueviolet;
+}
