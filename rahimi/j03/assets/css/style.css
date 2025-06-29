@@ -1,0 +1,20 @@
+h1{
+    background-color: yellow;
+    display: inline;
+}
+
+p{
+    background-color:cornflowerblue;
+    display: inline;
+}
+
+span{
+    background-color: crimson;
+    display: block;
+}
+
+a{
+    background-color: aquamarine;
+    display: inline-block;
+    width: 200px;
+}
