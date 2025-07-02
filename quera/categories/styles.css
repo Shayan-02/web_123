@@ -32,6 +32,7 @@ body {
 .header a {
     font-size: 16px;
     text-decoration: none;
+    color: #503E9D;
 }
 
 .categories {
@@ -47,6 +48,7 @@ body {
     width: 12%;
     padding: 20px;
     text-align: center;
+    background-color: #f7f7f7;
 }
 
 .category .icon {
@@ -75,4 +77,8 @@ body {
     font-size: 14px;
     color: #666;
     margin: 0;
+}
+
+#popular{
+    background-color: #fb6d3a;
 }
