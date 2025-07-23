@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: vazirmatn;
+    font-size: 0.9rem;
+}
+
+/* header */
+
+.container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.menu{
+    margin-right: 180px;
+    width: 80%;
+}
+
+.item{
+    display: inline;
+    margin-left: 20px;
+}
+
+.dropdown-menu{
+    position: relative;
+}
+
+.snapp-products{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-menu:hover .snapp-products{
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.sub-link{
+    color: rgb(134, 134, 134);
+}
+
+.sub-link:hover{
+    color: #21AA58;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+
+
+.item-link{
+    color: rgb(73, 73, 73);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.item-link:hover{
+    font-weight: 800;
+}
+
+
+/* main */
+
+.hero{
+    display: flex;
+    height: 400px;
+}
+
+.right{
+    width: 50%;
+    background-color: #21AA58;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box{
+    margin-left: 50px;
+    width: 70%;
+}
+
+.hero h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.hero p{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.link-box{
+    width: 70%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .link-box input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 300px;
+}
+
+.hero .link-box input::placeholder{
+    color: #fff;
+}
+
+.link-box button{
+    height: 35px;
+    width: 130px;
+    font-size: 1rem;
+    color: #21AA58;
+    border: none;
+    border-radius: 5px;
+}
+
+.login{
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    width: 300px;
+}
+
+.left{
+    width: 50%;
+}
+
+.left .hero-img{
+    width: 100%;
+    height: 400px;
+}
+
