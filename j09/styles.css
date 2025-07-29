@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+}
+
+.element {
+  display: block;
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .element {
+    display: none;
+  }
+}
